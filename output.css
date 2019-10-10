@@ -3,11 +3,18 @@ h2 {
     box-sizing: border-box;
     width: max-content    
 }
-li:nth-child(odd) {
+
+.visual li {
     color: blue
 }
-li:nth-child(even) {
+.auditory li {
     color: green
+}
+.motor li {
+    color: darkgoldenrod
+}
+.cognitive li {
+    color: darkgreen
 }
 /* css asso */
 h3 {
@@ -17,3 +24,13 @@ h3 {
 title {
     text-transform: uppercase;
 }
+.intro {
+    font-size: 30px;
+}
+div.visual {
+    width:100px; /*width of your image*/
+    height:100px; /*height of your image*/
+    background-image:url(https://images.app.goo.gl/WNg7d3p8tkLZxPV2A);
+    margin:0; /* If you want no margin */
+    padding:0; /*if your want to padding */
+ }
