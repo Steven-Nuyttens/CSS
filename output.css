@@ -1,0 +1,19 @@
+h2 {
+    color: red; font-style: italic; 
+    box-sizing: border-box;
+    width: max-content    
+}
+li:nth-child(odd) {
+    color: blue
+}
+li:nth-child(even) {
+    color: green
+}
+/* css asso */
+h3 {
+
+    color: pink 
+}
+title {
+    text-transform: uppercase;
+}
